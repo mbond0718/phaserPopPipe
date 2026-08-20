@@ -1,4 +1,0 @@
-## Ignore everything except raw
-*
-!raw/*
-!.gitignore
