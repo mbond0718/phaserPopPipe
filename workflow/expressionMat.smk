@@ -71,5 +71,5 @@ rule phaserExpMat:
    shell:
        """
         module load BCFtools
-        python3 scripts/phaser_expr_matrix_ed.py --gene_ae_dir {params.ae_dir} --features {input.features} --o {output.expressionMat}
+        python3 scripts/phaser_expr_matrix.py --gene_ae_dir {params.ae_dir} --features {input.features} --o {output.expressionMat}
         """
