@@ -1,0 +1,7 @@
+Tissue	Pairs
+LUNG	lung_pairs.txt
+LUNG	blood_pairs.txt
+MUSCLE	lung_pairs.txt
+MUSCLE	blood_pairs_pairs.txt
+COLON	lung_pairs_pairs.txt
+COLON   blood_pairs
