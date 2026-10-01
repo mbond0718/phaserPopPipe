@@ -1,0 +1,14 @@
+cluster:
+  sbatch
+    --cpus-per-task={threads}
+    --mem={resources.mem}
+    --job-name="{rule},{wildcards.TISSUE}"
+    --output=logs_slurm/{rule}.{wildcards.TISSUE}.{jobid}.out
+    --error=logs_slurm/{rule}.{wildcards.TISSUE}.{jobid}.err
+    --nodes=1
+    --ntasks=1
+default-resources: [partition=ne1, mem=16000, time=4320]
+
+latency-wait: 120
+max-jobs-per-second: 10
+jobs: 100
