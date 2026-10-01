@@ -97,5 +97,5 @@ rule cisVar:
    shell:
        """
         module load BCFtools
-        python3 scripts/phaser_cis_var_ed.py --bed {input.expMat} --vcf {input.vcf} --pairs {input.pair} --map {input.map} --o {output.cisvar} --chr chr22
+        python3 scripts/phaser_cis_var.py --bed {input.expMat} --vcf {input.vcf} --pairs {input.pair} --map {input.map} --o {output.cisvar} --chr chr22
         """
