@@ -1,0 +1,3 @@
+## In this directory, you can include the following files
+## 1. Gencode annotation bedfile
+## 2. Upload pairs into a directory titled "pairs" in this directory to be fully compatible with the pipeline in its current form
