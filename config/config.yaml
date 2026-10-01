@@ -1,0 +1,8 @@
+## Path to sample sheet
+samplesheet_expr: '/gpfs/commons/groups/lappalainen_lab/mbond/work/phaserPopPipe/samplesheet_expr.txt'
+samplesheet_cisvar: '/gpfs/commons/groups/lappalainen_lab/mbond/work/phaserPopPipe/samplesheet_cisvar.txt'
+
+## Other parameters ## change these according to files on your local cluster
+ref: "/gpfs/commons/groups/lappalainen_lab/mbond/work/phaserPop/ref/gencode.v25.annotation.bed"
+aseDir: "/gpfs/commons/groups/lappalainen_lab/mbond/work/asePipe_V3/output/ase/"
+outpath: "/gpfs/commons/groups/lappalainen_lab/mbond/work/phaserPopPipe/"
